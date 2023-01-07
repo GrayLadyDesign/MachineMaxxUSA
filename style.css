@@ -105,3 +105,34 @@
   height: 121px;
   width: 1440px;
 }
+
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --east-bay: 
+rgba(67, 81, 136, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-m: 24px;
+
+  --font-family-rubik: "Rubik";
+}
+
+
+
+.rubik-semi-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-light-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-rubik);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  font-style: normal;
+}
