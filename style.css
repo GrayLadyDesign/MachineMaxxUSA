@@ -1,54 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,300,600|Balsamiq+Sans:400|Montserrat:700");
 
-.frame-15 {
-  align-items: center;
-  background-color: var(--white);
-  border: 1px none;
-  display: flex;
-  flex-direction: column;
-  height: 5500px;
-  padding: 0 59px;
-  width: 1728px;
-}
-
 .hidden,
 .hidden * {
   pointer-events: none;
   visibility: hidden;
 }
 
-.header-nav {
-  align-self: flex-start;
-  height: 133px;
-  margin-top: 7px;
-  width: 1608px;
+.machinemaxxusa-anima {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 5500px;
+  width: 1600px;
 }
 
-.overlap-group1 {
-  height: 5119px;
-  margin-right: 3px;
-  margin-top: 25px;
-  position: relative;
-  width: 1441px;
-}
-
-.footer-cta {
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/63b700a0be7591e6c41c1d23/releases/63b700fc88b88c0d3051884b/img/background@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 1003px;
-  left: 0;
-  position: absolute;
-  top: 4116px;
-  width: 1440px;
-}
-
-.mmusa-landing-page-v2 {
-  height: 4802px;
-  left: 1px;
-  position: absolute;
-  top: 0;
-  width: 1440px;
+.footer {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 10px;
+  min-width: 1444px;
 }
 
 .overlap-group {
@@ -59,30 +31,22 @@
   gap: 40px;
   height: 216px;
   justify-content: flex-end;
-  margin-right: 4px;
   min-width: 1440px;
   padding: 54px 33px;
-}
-
-.machine-maxx-usa-logo-3 {
-  align-self: flex-start;
-  height: 107px;
-  object-fit: cover;
-  width: 300px;
 }
 
 .address {
   letter-spacing: 1.2px;
   line-height: normal;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   min-height: 91px;
   text-align: right;
   width: 291px;
 }
 
-.overlap-group2 {
+.overlap-group1 {
   height: 91px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   position: relative;
   width: 497px;
 }
@@ -92,7 +56,7 @@
   left: 0;
   position: absolute;
   top: 60px;
-  width: 24px;
+  width: 22px;
 }
 
 .site-map-privacy-pol {
@@ -102,4 +66,43 @@
   position: absolute;
   top: 0;
   width: 497px;
+}
+
+.machine-maxx-usa-logo-3 {
+  align-self: flex-start;
+  height: 107px;
+  object-fit: cover;
+  width: 300px;
+}
+
+.header-nav {
+  height: 132px;
+  width: 1600px;
+}
+
+.overlap-group2 {
+  height: 5127px;
+  margin-left: 3px;
+  margin-top: 25px;
+  position: relative;
+  width: 1443px;
+}
+
+.mmusa-landing-page-v2 {
+  height: 4802px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.footer-cta {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/63b700a0be7591e6c41c1d23/releases/63b700fc88b88c0d3051884b/img/background@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1003px;
+  left: 3px;
+  position: absolute;
+  top: 4124px;
+  width: 1440px;
 }
