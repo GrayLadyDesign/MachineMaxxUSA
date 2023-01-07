@@ -1,12 +1,8 @@
+
+
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,300,600|Balsamiq+Sans:400|Montserrat:700");
 
-.hidden,
-.hidden * {
-  pointer-events: none;
-  visibility: hidden;
-}
-
-.machinemaxxusa-anima {
+.machinemaxxusa-anima2 {
   align-items: center;
   background-color: var(--white);
   border: 1px none;
@@ -16,10 +12,16 @@
   width: 1500px;
 }
 
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
 .footer {
   align-items: flex-start;
   display: flex;
-  margin-left: 10px;
+  margin-right: 2px;
   min-width: 1444px;
 }
 
@@ -42,6 +44,13 @@
   min-height: 91px;
   text-align: right;
   width: 291px;
+}
+
+.machine-maxx-usa-logo-3 {
+  align-self: flex-start;
+  height: 107px;
+  object-fit: cover;
+  width: 300px;
 }
 
 .overlap-group1 {
@@ -68,29 +77,17 @@
   width: 497px;
 }
 
-.machine-maxx-usa-logo-3 {
-  align-self: flex-start;
-  height: 107px;
-  object-fit: cover;
-  width: 300px;
-}
-
-.header-nav {
-  height: 132px;
-  width: 1600px;
-}
-
 .overlap-group2 {
   height: 5127px;
-  margin-left: 3px;
-  margin-top: 25px;
+  margin-right: 3px;
+  margin-top: 36px;
   position: relative;
   width: 1443px;
 }
 
 .mmusa-landing-page-v2 {
   height: 4802px;
-  left: 0;
+  left: 3px;
   position: absolute;
   top: 0;
   width: 1440px;
@@ -101,8 +98,13 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 1003px;
-  left: 3px;
+  left: 0;
   position: absolute;
   top: 4124px;
   width: 1440px;
+}
+
+.header-nav {
+  height: 121px;
+  width: 1500px;
 }
