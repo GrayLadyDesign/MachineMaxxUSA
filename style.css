@@ -99,12 +99,12 @@
   background-size: cover;
   height: 1003px;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 4124px;
   width: 1440px;
 }
 
 .header-nav {
   height: 121px;
-  width: 1500px;
+  width: 1440px;
 }
