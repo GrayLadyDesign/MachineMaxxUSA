@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,300,600|Balsamiq+Sans:400|Montserrat:700");
+
+@font-face {
+  font-family: "Impact-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Impact-Regular") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+}
+
+.frame-15 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 5500px;
+  padding: 0 59px;
+  width: 1728px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.header-nav {
+  align-self: flex-start;
+  height: 133px;
+  margin-top: 7px;
+  width: 1608px;
+}
+
+.overlap-group2 {
+  height: 5119px;
+  margin-right: 3px;
+  margin-top: 25px;
+  position: relative;
+  width: 1441px;
+}
+
+.footer-cta {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/63b700a0be7591e6c41c1d23/releases/63b700fc88b88c0d3051884b/img/background@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1003px;
+  left: 0;
+  min-width: 1440px;
+  padding: 185px 310px;
+  position: absolute;
+  top: 4116px;
+}
+
+.keep-in-touch {
+  align-items: flex-start;
+  background-color: var(--east-bay);
+  border-radius: 10px;
+  display: flex;
+  gap: 25px;
+  height: 545px;
+  justify-content: flex-end;
+  min-width: 820px;
+  padding: 43px 62px;
+}
+
+.flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  min-height: 434px;
+  width: 352px;
+}
+
+.address-flex-col {
+  letter-spacing: 1.2px;
+  line-height: normal;
+  margin-right: 13px;
+  min-height: 57px;
+  width: 291px;
+}
+
+.contact-us {
+  color: var(--white);
+  font-family: var(--font-family-impact-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 84px;
+  letter-spacing: 1.5px;
+  line-height: 16px;
+  width: 352px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.forms {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 49px;
+  min-height: 244px;
+  width: 328px;
+}
+
+.forms-item {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 328px;
+}
+
+.frame-4,
+.frame-5,
+.frame-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--nobel);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame-1 {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 1px;
+  min-width: 328px;
+}
+
+.frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.label {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  padding: 0px 12px;
+}
+
+.assistive-text {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.frame-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  padding: 12px 12px 12px 16px;
+}
+
+.arrow_drop_down {
+  height: 24px;
+  min-width: 24px;
+}
+
+.flex-col-2 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 398px;
+  width: 318px;
+}
+
+.button-small {
+  align-items: center;
+  background-color: var(--eerie-black);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1px;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.min-width-64 {
+  height: 1px;
+  margin-bottom: -1px;
+  min-width: 64px;
+}
+
+.frame-8 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  padding: 10px 16px;
+  width: fit-content;
+}
+
+.button {
+  color: var(--white);
+  font-family: var(--font-family-balsamiq_sans);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hours-mon-fri-8-am-4-pm-216-316-5064 {
+  letter-spacing: 1.2px;
+  line-height: normal;
+  min-height: 91px;
+  text-align: right;
+  width: 291px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 208px;
+  margin-right: 1px;
+  margin-top: 43px;
+  min-width: 317px;
+  padding: 24px 25px;
+}
+
+.text {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  width: 266px;
+}
+
+.lorem-ipsum-is-simpl {
+  color: var(--eerie-black);
+  flex: 1;
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+}
+
+.mmusa-landing-page-v2 {
+  height: 4802px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.overlap-group1 {
+  align-items: center;
+  background-color: var(--east-bay);
+  display: flex;
+  gap: 40px;
+  height: 216px;
+  justify-content: flex-end;
+  margin-right: 4px;
+  min-width: 1440px;
+  padding: 54px 33px;
+}
+
+.machine-maxx-usa-logo-3 {
+  align-self: flex-start;
+  height: 107px;
+  object-fit: cover;
+  width: 300px;
+}
+
+.address-overlap-group1 {
+  letter-spacing: 1.2px;
+  line-height: normal;
+  margin-bottom: 5px;
+  min-height: 91px;
+  text-align: right;
+  width: 291px;
+}
+
+.overlap-group3 {
+  height: 91px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 497px;
+}
+
+.vector {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 24px;
+}
+
+.site-map-privacy-pol {
+  left: 0;
+  letter-spacing: 1.2px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 497px;
+}
